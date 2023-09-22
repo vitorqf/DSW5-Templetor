@@ -1,7 +1,7 @@
 {% load static %}
 
 <header>
-    <a href="/"><img src="{% static 'assets/icons/logo.svg' %}" alt="logo"></a>
+    <a href="{% url 'index' %}"><img src="{% static 'assets/icons/logo.svg' %}" alt="logo"></a>
     <form action="" class="searchBar">
         <select name="categorias" id="buscaCategorias">
             <option value="categorias">Categorias</option>
